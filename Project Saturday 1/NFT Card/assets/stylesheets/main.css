@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: block;
+  line-height: 1.5;
+  background: hsl(217, 54%, 11%);
+  padding-bottom: 0.8rem;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+
+main {
+  display: block;
+  margin: 4em auto;
+  background: hsl(216, 50%, 16%);
+  width: 332.31px;
+  padding: 1.365em;
+  border-radius: 15px;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.equilibrium {
+  border-radius: 10px;
+}
+
+.eqBlock {
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.equilibrium:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+
+.eqSentence p {
+  color: hsl(215, 51%, 70%);
+  margin-top: 0.464em;
+  margin-bottom: 1em;
+  font-weight: 300;
+}
+
+.eqSentence h1 {
+  color: hsl(0, 0%, 100%);
+  margin-top: 1em;
+  font-weight: 600;
+}
+
+
+.container {
+  display: table;
+  clear: both;
+  zoom: 1;
+  color: hsl(215, 51%, 70%);
+  font-weight: 400;
+}
+
+.etparagraph {
+  float: left;
+  color: hsl(178, 100%, 50%);
+}
+
+.etclockpara {
+  float: right;
+}
+
+.etpic {
+  float: left;
+  margin-right: 0.5em;
+  padding-top: 0.137em;
+}
+
+.etclock {
+  float: left;
+  margin-left: 5.9rem;
+  margin-right: 0.5em;
+  padding-top: 0.243em;
+}
+
+
+.profile {
+  border: 1px solid hsl(0, 0%, 100%);
+  border-radius: 50%;
+  width: 10%;
+  float: left;
+  margin-right: 1em;
+}
+
+.bottom {
+  margin-top: 1em;
+  color: hsl(0, 0%, 100%);
+}
+
+.creation {
+  color: hsl(215, 51%, 70%);
+}
+
+.creationSen {
+  padding-top: 0.3em;
+  font-size: 1rem;
+}
+
+.Name:hover {
+  cursor: pointer;
+  color: hsl(178, 100%, 50%);
+}
+
+
+
+.name {
+  color: white;
+  font-size: 15px;
+  text-align: center;
+}
+
+
+.name a {
+  color: hsl(228, 45%, 44%);
+}
