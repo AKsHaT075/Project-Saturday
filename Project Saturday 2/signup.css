@@ -1,0 +1,321 @@
+* {
+    margin: 0;
+}
+body {
+    background-color: rgba(18, 18, 18, 1);
+    
+    font-family: Arial, sans-serif;
+
+    color: white;
+    
+
+    
+}
+
+.main {
+    background-color: rgba(18, 18, 18, 1);
+    width: 700px;
+    height: 800px;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+ 
+
+
+}
+
+.main img {
+
+    margin-left: 48%;
+    margin-bottom: 10px;
+    margin-top: -20px;
+
+}
+
+.logo b {
+    position: absolute;
+    margin-top: 8px;
+    margin-left: 10px;
+    
+}
+
+.logo img {
+
+    padding-left: 40px;
+    margin-bottom: 10px;
+    
+
+}
+
+.logo {
+
+    display: flex;
+}
+
+.login {
+
+    margin-top: 15px;
+    margin-left: 35%;
+
+    font-size: 22px;
+}
+
+.form0 {
+
+    margin-left: 210px;
+    margin-top: 50px;
+}
+
+.form0 label {
+
+    color: white;
+
+}
+.form0 input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+    height: 40px;
+    background-color: rgba(18, 18, 18, 1);
+    border-radius: 5px;
+    color: white;
+   
+    border: 0.1em solid rgba(124, 124, 124, 1);
+}
+
+.form0 input:hover {
+    border: 0.1em solid red;
+
+    
+
+}
+
+.form0 button {
+    width: 320px;
+    height: 49px;
+    border-radius: 25px;
+    font-size: 15px;
+    margin-top: 30px;
+    background-color: rgba(30, 215, 96, 1);
+    border: 1px solid rgba(30, 215, 96, 1);
+}
+
+.hrs hr {
+
+    width: 140px;
+    background-color: red;
+    color: red;
+    height: 0px;
+    margin-top: 20px;
+    
+    border-bottom: 0px solid rgba(124, 124, 124, 1);
+    display: flex;
+    margin-left: 40px;
+}
+
+.orr {
+    color: white;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 197px;
+   
+    color: rgba(255, 248, 231, 1);
+}
+
+.hrs {
+    display: flex;
+    margin-left: 170px;
+    margin-top: 20px;
+    
+    
+}
+
+
+
+.hrs2  {
+
+    display: flex;
+    margin-left: 220px;
+    width: 320px;
+    background-color: rgba(41, 41, 41, 1);
+    margin-top: 30px;
+    display: flex;
+    height: 1px;
+}
+
+.buttons {
+    margin-top: 30px;
+    margin-left: 215px;
+}
+
+.button {
+
+    background-color: rgba(18, 18, 18, 1);
+    height: 50px;
+    width: 320px;
+    color: white;
+    border-radius: 30px;
+    margin-top: 10px;
+    border: 0.1em solid rgba(124, 124, 124, 1);
+}
+
+.button b {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.button img {
+
+    margin-left: -10px;
+    margin-top: 5px;
+    margin-right: 20px;
+
+}
+
+.form0 button:hover {
+
+    scale: 1.08;
+    transition: 0.1s;
+}
+
+.button:hover {
+
+    background-color: rgba(30, 215, 96, 1);
+    transition: 0.2s;
+}
+
+.form0 input::placeholder {
+    color: darkgrey;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+.form0 input:focus {
+    border: 0.1em solid red;
+    outline: none; 
+    padding-left: 10px;
+    width: 292px;
+    height: 40px;
+ 
+}
+
+.form0 input:focus::placeholder {
+    padding-left: 2px;
+}
+
+.if_acc {
+
+    margin-left: 260px;
+    margin-top: 30px;
+
+
+    p {
+        color: rgba(179, 179, 178, 1);
+    }
+
+    a {
+        color: white;
+    }
+
+}
+
+footer {
+
+     margin-top: 100px;
+     font-size: 13px;
+     margin-left: 60px;
+    color: rgba(179, 179, 178, 1);
+    
+
+    a{
+        color: rgba(179, 179, 178, 1);
+    }
+}
+
+/* Signup 1  */
+
+
+.pass_info p {
+    color:rgba(244, 246, 249, 1) ;
+    margin-bottom: 10px;
+}
+
+
+.options-list {
+    list-style-type: none;
+    padding: 0;
+    color:rgba(244, 246, 249, 1) ;
+    margin-top: 5px;
+
+}
+
+.options-list li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 8px;
+    font-size: 15px;
+
+}
+
+.options-list li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 6px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    border: 1px solid rgba(137, 137, 137, 1);
+    background-color: #181818; 
+}
+
+
+
+.progress-bar {
+    width: 60%;
+    height: 2px;
+    background-color: rgba(124, 124, 124, 1);
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-left: 150px;
+}
+
+.progress {
+    width: 30%; 
+    height: 100%;
+    background-color: #00ff7f; 
+    border-radius: 5px 0 0 5px;
+}
+
+.step-indicator {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 180px;
+}
+
+.back-arrow {
+    font-size: 30px;
+    margin-right: 10px;
+
+    cursor: pointer;
+    color:  rgba(124, 124, 124, 1);
+}
+
+.step-text p {
+    margin: 6px;
+    font-size: 17px;
+    color: #b3b3b3; 
+}
+
+.step-text h2 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+

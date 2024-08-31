@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+}
+
+body {
+    background: url('black-gradient-background-nyu2n3j9qppbl9ro\ \(1\)\ \(1\).jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.main {
+    background-color: rgba(18, 18, 18, 1);
+    width: 700px;
+    height: 800px;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+}
+
+.main img {
+
+    margin-top: 30px;
+    margin-left: 48%;
+
+}
+
+.logo b {
+    position: absolute;
+    margin-top: 8px;
+    margin-left: 10px;
+    
+}
+
+.logo img {
+
+    padding-left: 40px;
+    margin-bottom: 5px;
+
+}
+
+.logo {
+
+    display: flex;
+}
+
+.login {
+
+    margin-top: 15px;
+    margin-left: 35%;
+    font-family:   Georgia, 'Times New Roman', Times, serif;
+}
+
+.buttons {
+    margin-top: 20px;
+    margin-left: 32%;
+}
+
+.button {
+
+    background-color: rgba(18, 18, 18, 1);
+    height: 50px;
+    width: 320px;
+    color: white;
+    border-radius: 30px;
+    margin-top: 10px;
+    border: 0.1em solid rgba(124, 124, 124, 1);
+}
+
+.button b {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.button img {
+
+    margin-left: -10px;
+    margin-top: 5px;
+    margin-right: 20px;
+
+}
+
+.button:hover {
+
+    background-color: rgba(30, 215, 96, 1);
+    transition: 0.2s;
+}
+
+.hrs {
+
+    width: 500px;
+    background-color: rgba(83, 83, 83, 0.692);
+    height: 0.1em;
+    margin-top: 20px;
+    margin-left: 16%;
+}
+
+.input-boxes {
+    margin-left: 34%;
+    margin-top: 35px;
+
+}
+
+.input-boxes label {
+
+    color: white;
+    text-align: left;
+
+}
+
+.input-boxes input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 280px;
+    height: 40px;
+    background-color: rgba(18, 18, 18, 1);
+    border-radius: 5px;
+    color: white;
+   
+    border: 0.1em solid rgba(124, 124, 124, 1);
+}
+
+.input-boxes input:hover {
+    border: 0.1em solid red;
+
+    
+
+}
+
+.log-btn button {
+    width: 300px;
+    height: 49px;
+    border-radius: 25px;
+    font-size: 15px;
+    margin-top: 30px;
+    background-color: rgba(30, 215, 96, 1);
+    border: 1px solid rgba(30, 215, 96, 1);
+
+}
+
+.log-btn button:hover {
+
+    scale: 1.08;
+    transition: 0.1s;
+}
+
+.for-pass {
+    margin-top: 15px;
+    margin-left: 55px;
+    font-size: 20px;
+
+}
+
+.for-pass a:hover {
+
+    color: red;
+}
+
+.for-pass a {
+    color: white;
+}
+
