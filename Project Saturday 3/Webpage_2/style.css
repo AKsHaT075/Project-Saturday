@@ -1,0 +1,320 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 130px;
+
+
+}
+
+.header_one {
+    height: 45px;
+    width: 100%;
+    border-bottom: 0.1em solid #f6f8fa;
+    display: flex;
+    font-weight: 300;
+    font-size: 12px;
+    color: #859098;
+    line-height: 45px;
+
+
+}
+
+.header_one_en {
+
+    width: 70px;
+    height: 45px;
+    border-right: 0.1em solid #f6f8fa;
+    padding-left: 20px;
+
+}
+
+.header_one_usd {
+
+    width: 90px;
+    height: 45px;
+    border-right: 0.1em solid #f6f8fa;
+    padding-left: 20px;
+
+}
+
+.header_one_srch {
+
+    width: 55px;
+    height: 45px;
+    border-right: 0.1em solid #f6f8fa;
+    padding-left: 20px;
+}
+
+.header_one_space {
+
+    width: 1385px;
+    height: 45px;
+    border-right: 0.1em solid #f6f8fa;
+    padding-left: 20px;
+
+}
+
+.header_one_contact {
+
+    width: 135px;
+    height: 45px;
+    border-right: 0.1em solid #f6f8fa;
+    padding-left: 20px;
+
+}
+
+.header_one_signin {
+
+    width: 85px;
+    height: 45px;
+    border-right: 0.1em solid #f6f8fa;
+    padding-left: 20px;
+}
+
+.header_one_reg {
+
+    width: 90px;
+    height: 45px;
+
+    padding-left: 20px;
+}
+
+.header_two {
+
+    margin-left: 370px;
+    margin-right: 320px;
+    display: flex;
+
+    h1 {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 20px;
+        color: black;
+    }
+
+
+}
+
+.nav {
+    line-height: 80px;
+    margin-left: 470px;
+
+
+
+
+    a {
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 14px;
+        margin-left: 42px;
+        color: #859098;
+    }
+
+
+}
+
+.imaging {
+    width: 100%;
+    height: 800px;
+    background-image: linear-gradient(rgba(65, 73, 89, .65), rgba(65, 73, 89, .65)), url(/Webpage_2/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content {
+    text-align: center;
+    padding-top: 150px;
+
+    h1 {
+
+        font-weight: 700;
+        color: white;
+        font-size: 50px;
+
+    }
+
+    p {
+        color: white;
+        font-size: 18px;
+        padding-top: 20px;
+        line-gap-override: 10px;
+    }
+}
+
+
+
+.box {
+    width: 83%;
+    height: 70px;
+    border-radius: 4px;
+    background-color: white;
+    display: flex;
+    text-align: center;
+
+}
+
+.main_search {
+    width: 60%;
+    height: 70px;
+    margin: auto;
+}
+
+.empty {
+    width: 40px;
+    height: 70px;
+}
+
+
+.srch_button button {
+
+    padding: 24px 50px;
+    border-radius: 4px;
+    border: 0px;
+    background-color: #ff545a;
+    color: white;
+    font-weight: 400;
+
+}
+
+.one {
+    
+    width: 50%;
+   
+    display: flex;
+}
+
+.two {
+    
+    width: 50%;
+    
+    display: flex;
+
+}
+
+.search_one {
+
+    width: 80%;
+
+
+    label {
+
+
+        font-weight: 500;
+        font-size: 18px;
+        padding-left:10px;
+        line-height: 10px;
+
+
+
+    }
+
+    input {
+        border: 0px;
+        padding: 25px 0px;
+        width: 70%;
+        
+    }
+
+
+    
+    input:focus {
+        border: 0px;
+        outline: none; 
+    
+     
+    }
+    
+    input:focus::placeholder {
+        
+    }
+
+}
+
+.search_one_icon {
+    height: 100%;
+    width: 20%;
+    background-color: white;
+    line-height: 70px;
+    font-size: 20px;
+}
+
+.search_two_icon {
+    height: 100%;
+    width: 20%;
+    background-color: white;
+    line-height: 70px;
+    font-size: 20px;
+}
+
+.search_two {
+    width: 80%;
+
+
+    label {
+
+
+        font-weight: 500;
+        font-size: 18px;
+        padding-left:10px;
+        line-height: 10px;
+
+
+
+    }
+
+    input {
+        border: 0px;
+        padding: 25px 0px;
+        width: 70%;
+        
+    }
+
+
+    
+    input:focus {
+        border: 0px;
+        outline: none; 
+    
+     
+    }
+    
+    input:focus::placeholder {
+        
+    }
+}
+.services{
+    width: 60%;
+    height: 18vh;
+    margin: auto;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: -4%;
+    margin-bottom: 10%;
+}
+.serv{
+    width: 18%;
+    height: 100%;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0px 0px 7px  rgba(3, 3, 3, 0.514);
+    text-align: center;
+    padding: 2%;
+}
+.serv i{
+    font-size: 3em;
+}
+.serv h5{
+    font-size: 18px;
+    font-weight: normal;
+}
+.serv p{
+    font-size: 12px;
+    color: lightslategray;
+}

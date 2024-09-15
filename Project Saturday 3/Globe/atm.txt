@@ -1,0 +1,51 @@
+# ATM program in Python
+
+def atm():
+    id = 192830291
+    pin = 5105
+    name = "Akshat"
+
+    balance = 0
+
+    # Taking input for card ID
+    card_id = int(input("Enter Your Card ID: "))
+
+    if card_id == id:
+        user_pin = int(input("Enter ATM Pin: "))
+
+        if user_pin == pin:
+            print(f"User {name} Logged In Successfully!")
+
+            while True:
+                # Prompting user for task selection
+                task = int(input("Select One [1]-Deposit [2]-Withdraw [3]-Check Balance [4]-Exit: "))
+
+                if task == 1:
+                    deposit_amount = int(input("Enter Amount You Want To Deposit: "))
+                    balance += deposit_amount
+                    print(f"Successfully deposited. Your new balance is: {balance}")
+
+                elif task == 2:
+                    withdraw_amount = int(input("Enter Amount You Want To Withdraw: "))
+                    if withdraw_amount <= balance:
+                        balance -= withdraw_amount
+                        print(f"Successfully withdrawn. Your new balance is: {balance}")
+                    else:
+                        print("Insufficient funds!")
+
+                elif task == 3:
+                    print(f"Your Bank Balance: {balance}")
+
+                elif task == 4:
+                    print("Exiting...")
+                    break
+
+                else:
+                    print("Invalid option, please try again.")
+        else:
+            print("Incorrect Pin!")
+    else:
+        print("Card ID Not Found")
+
+# Running the ATM program
+atm()
