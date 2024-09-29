@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Tic Tac Toe</h1>
+
+    <div class="winner hide">
+        <h1 id="msg" style="color: red;">Winner</h1>
+            <button id="restart">Restart</button>
+        
+    </div>
+    <div class="container">
+        
+        <div class="game">
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+        </div>
+
+        
+    </div>
+    <button id="reset" onclick="">Reset Game</button>
+
+<script src="/app.js"></script>
+
+<div class="score">
+    <p id="score" >Score <br> X: <span id="xscore">0</span>  v|s  O: <span id="oscore">0</span> </p>
+</div>
+</body>
+
+</html>
