@@ -21,6 +21,14 @@
   - Working with hover effects
   - Enhanced understanding of `div` structures and form handling
 
+ #### 3. JavaScript Projects (Tic Tac Toe, Rock Paper Scissors, Real-Time Weather App)
+- **Technologies Used**: JavaScript, HTML, CSS, APIs
+- **Skills Gained**:
+  - Understanding basic JavaScript concepts like DOM manipulation and event handling
+  - Building logical game flows (Tic Tac Toe, Rock Paper Scissors)
+  - Fetching and integrating data from APIs to create dynamic applications (Real-Time Weather App)
+  - Handling user input and displaying real-time data
+
 ### Future Projects
 I will be expanding my focus to include JavaScript, creating interactive web applications and further enhancing my frontend development skills.
 
